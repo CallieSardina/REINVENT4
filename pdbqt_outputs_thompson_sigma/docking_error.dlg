@@ -1,0 +1,16 @@
+
+Parse error on line 21 in file "./pdbqt_outputs_thompson_sigma/drug_86.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+
+Parse error on line 13 in file "./pdbqt_outputs_thompson_sigma/drug_94.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+
+Parse error on line 2 in file "./pdbqt_outputs_thompson_sigma/docking_error.dlg": Unknown or inappropriate tag
+
+Parse error on line 43 in file "./pdbqt_outputs_thompson_sigma/drug_17.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+
+Parse error on line 45 in file "./pdbqt_outputs_thompson_sigma/drug_71.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+
+Parse error on line 1 in file "./pdbqt_outputs_thompson_sigma/docking_results.dlg": Unknown or inappropriate tag
+
+Parse error on line 28 in file "./pdbqt_outputs_thompson_sigma/drug_98.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+
+Parse error on line 24 in file "./pdbqt_outputs_thompson_sigma/drug_39.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.

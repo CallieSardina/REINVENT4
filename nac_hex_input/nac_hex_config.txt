@@ -1,0 +1,10 @@
+receptor = ./nac_hex_input/modified_cylindrin_clust0_model1.pdbqt
+ligand_directory = ./pdbqt_outputs_thompson_sigma
+opencl_binary_path = /home/calliesardina/bin/Vina-GPU-2.1/QuickVina2-GPU-2.1
+center_x = 4.678
+center_y = 0.785
+center_z = 0.156
+size_x = 10
+size_y = 10
+size_z = 10
+thread = 8000

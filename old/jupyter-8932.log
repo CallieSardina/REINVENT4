@@ -1,0 +1,29 @@
+ERROR: Unable to locate a modulefile for 'cuda/12.6'
+[I 2025-07-22 11:40:37.552 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-07-22 11:40:37.555 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-07-22 11:40:37.559 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-22 11:40:37.559 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2025-07-22 11:40:37.562 ServerApp] notebook | extension was successfully linked.
+[I 2025-07-22 11:40:37.734 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-22 11:40:37.744 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-22 11:40:37.746 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-07-22 11:40:37.746 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-07-22 11:40:37.748 LabApp] JupyterLab extension loaded from /home/calliesardina/miniconda3/envs/reinvent4/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-22 11:40:37.748 LabApp] JupyterLab application directory is /home/calliesardina/miniconda3/envs/reinvent4/share/jupyter/lab
+[I 2025-07-22 11:40:37.748 LabApp] Extension Manager is 'pypi'.
+[I 2025-07-22 11:40:37.780 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-22 11:40:37.781 ServerApp] [Jupytext Server Extension] Deriving an AsyncTextFileContentsManager from AsyncLargeFileManager
+[I 2025-07-22 11:40:37.782 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2025-07-22 11:40:37.784 ServerApp] notebook | extension was successfully loaded.
+[I 2025-07-22 11:40:37.785 ServerApp] Serving notebooks from local directory: /home/calliesardina/REINVENT4
+[I 2025-07-22 11:40:37.785 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-07-22 11:40:37.785 ServerApp] http://127.0.0.1:8892/tree?token=bbdac3c7d9ecb41fa2ab9d43f64ced373ea187d8b6d1ec37
+[I 2025-07-22 11:40:37.785 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-07-22 11:40:37.787 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/calliesardina/.local/share/jupyter/runtime/jpserver-812635-open.html
+    Or copy and paste one of these URLs:
+        http://127.0.0.1:8892/tree?token=bbdac3c7d9ecb41fa2ab9d43f64ced373ea187d8b6d1ec37
+[I 2025-07-22 11:40:37.798 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+slurmstepd: error: *** JOB 8932 ON styx CANCELLED AT 2025-07-22T11:56:41 ***

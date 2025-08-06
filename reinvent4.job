@@ -1,0 +1,14 @@
+#!/bin/bash  -l
+#SBATCH --gres=gpu:h200-1g.35gb:1
+
+cd $SLURM_SUBMIT_DIR
+
+/bin/hostname
+
+conda activate reinvent4
+
+export PYTHONPATH=/home/calliesardina/REINVENT4:$PYTHONPATH
+
+export PYTHONPATH=$PYTHONPATH:/home/calliesardina/REINVENT4/reinvent_plugins/components
+
+reinvent -l druglike_and_diversity.log configs/druglike_and_diversity.toml

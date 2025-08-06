@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=jupyter_gpu
+#SBATCH --output=jupyter-%j.log
+#SBATCH --ntasks=1
+#SBATCH --gres=gpu:h200-1g.35gb:1
+
+# Load modules if needed
+module load cuda/12.6
+
+# Activate your conda env
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate reinvent4
+
+# Start Jupyter notebook, bind to localhost, no browser
+jupyter-notebook --no-browser --port=8892 --ip=127.0.0.1

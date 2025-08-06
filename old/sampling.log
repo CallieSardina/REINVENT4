@@ -1,0 +1,39 @@
+15:05:50 <INFO> Started REINVENT 4.6.22 (C) AstraZeneca 2017, 2023 on 2025-07-23
+15:05:50 <INFO> Command line: /home/calliesardina/miniconda3/envs/reinvent4/bin/reinvent -l sampling.log configs/sampling.toml
+15:05:50 <INFO> Reading run configuration from /home/calliesardina/REINVENT4/configs/sampling.toml using format toml
+15:05:50 <INFO> User calliesardina on host styx.cs.ucsb.edu
+15:05:50 <INFO> Python version 3.10.18
+15:05:50 <INFO> PyTorch version 2.7.1+cu126, git e2d141dbde55c2a4370fac5165b0561b6af4798b
+15:05:50 <INFO> PyTorch compiled with CUDA version 12.6
+15:05:50 <INFO> RDKit version 2025.03.3
+15:05:50 <INFO> Platform Linux-5.14.0-503.19.1.el9_5.x86_64-x86_64-with-glibc2.34
+15:05:50 <INFO> CUDA driver version 565.57.01
+15:05:50 <INFO> Number of PyTorch CUDA devices 1
+15:05:50 <WARN> 'use_cuda' is deprecated, use 'device' instead
+15:05:50 <INFO> Using CUDA device:0 NVIDIA H200 MIG 1g.35gb
+15:05:50 <INFO> GPU memory: 33173 MiB free, 33280 MiB total
+15:05:50 <INFO> Writing JSON config file to /home/calliesardina/REINVENT4/_sampling.json
+15:05:50 <INFO> Starting Sampling
+15:05:50 <INFO> /home/calliesardina/REINVENT4/priors/reinvent.prior has valid hash:
+{ 'comments': [],
+  'creation_date': 0,
+  'date_format': 'UNIX epoch',
+  'hash_id': '173568c36e1fc3d95cab289c7d31ce0b',
+  'hash_id_format': 'xxhash.xxh3_128_hex 3.4.1',
+  'model_id': '55d68f8a81c04f5a86304ebe1723a0ea',
+  'model_id_format': 'uuid.uuid4 3.10.12',
+  'origina_data_source': 'ChEMBL 25',
+  'updates': []}
+15:05:50 <INFO> Number of network parameters: 5,805,602
+15:05:50 <INFO> Network architecture:
+RNN(
+  (_embedding): Embedding(34, 256)
+  (_rnn): LSTM(256, 512, num_layers=3, batch_first=True)
+  (_linear): Linear(in_features=512, out_features=34, bias=True)
+)
+15:05:50 <INFO> Using generator Reinvent
+15:05:50 <INFO> Writing sampled SMILES to CSV file sampling.csv
+15:05:50 <INFO> Sampling 157 SMILES from model priors/reinvent.prior
+15:05:50 <INFO> Removed 2 invalid SMILES
+15:05:50 <INFO> Peak main memory usage: 1302.535 MiB
+15:05:50 <INFO> Finished REINVENT on 2025-07-23

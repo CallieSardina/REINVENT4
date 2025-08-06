@@ -43,6 +43,7 @@ def get_components(components: list[dict[str, dict]]) -> ComponentType:
     component_registry = get_registry()
 
     for component in components:
+        # print("component: ", component)
         component_type, component_value = list(component.items())[0]
         endpoints: dict = component_value["endpoint"]
         complevel_params = component_value.get("params", {})  # Component-level params, if exist.
@@ -50,6 +51,8 @@ def get_components(components: list[dict[str, dict]]) -> ComponentType:
         component_type_lookup = component_type.lower().replace("-", "").replace("_", "")
 
         try:
+            # print("Available components:", component_registry.keys())
+            # print("Looking for:", component_type_lookup)
             Component, ComponentParams = component_registry[component_type_lookup]
         except AttributeError:
             raise RuntimeError(f"Unknown scoring component: {component_type}")

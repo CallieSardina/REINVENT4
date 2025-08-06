@@ -89,12 +89,18 @@ def compute_component_scores(
     )
 
     if len(smilies_to_score) > 0:
+        # print("smilies_to_score: ", smilies_to_score)
+        # print("index_smiles_to_score: ", index_smiles_to_score)
+        # HERE
+        valid_mask = [True] * len(smilies_to_score)
         component_results = SmilesAssociatedComponentResults(
-            component_results=scoring_function(smilies_to_score), smiles=index_smiles_to_score
+            component_results=scoring_function(smilies_to_score, valid_mask=valid_mask), smiles=index_smiles_to_score
         )
 
         # update cache
-        cache.update((smiles, component_results[smiles]) for smiles in index_smiles_to_score)
+        # print("component results: ", component_results)
+        # print("smiles: ", smiles)
+        cache.update((smiles, component_results[smiles]) for smiles in component_results.data) # HERE: changed because dict key error since SMILES error: index_smiles_to_score)
 
     else:
         # in this case, there are no compounds to score. Create blank ComponentResults
